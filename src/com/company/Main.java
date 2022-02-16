@@ -11,13 +11,13 @@ public class Main {
         System.out.println("Please enter a number.");
         while (true){
             int num = input.nextInt();
-            if (num > 0 && num <= 10) {
+            if (num > 0 && num <= 8) {
                 for (int i = 1; i <= num; i++) {
                     System.out.println(chara.repeat(i));
                 }
                 break;
             } else {
-                System.out.println("Please enter a  number between 1 and 10.");
+                System.out.println("Please enter a  number between 1 and 8.");
             }
         }
     }
